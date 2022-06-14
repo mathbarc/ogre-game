@@ -14,7 +14,7 @@ class MainController : public OgreBites::ApplicationContext, public OgreBites::I
         void setup();
         bool keyPressed(const OgreBites::KeyboardEvent& evt);
 
-        virtual bool frameRenderingQueued(const Ogre::FrameEvent& evt);
+//        virtual bool frameRenderingQueued(const Ogre::FrameEvent& evt);
 
         void startRendering();
 
